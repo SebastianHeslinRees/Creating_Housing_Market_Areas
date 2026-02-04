@@ -94,6 +94,9 @@ The algorithm produces:
 
 An interactive web dashboard is provided so users can explore how different threshold parameters affect construction of the resulting Housing Market Areas.
 
+## *Please note*: 
+This dashboard is in it's beta proof of concept version. It will need a lot more work in regards to styling, functionality, bug testing and user experience before it is deloyed publicly
+
 ### Running the Dashboard
 
 ```bash
