@@ -64,7 +64,6 @@ Thumbs.db
 outputs/
 results/
 figures/
-*.png
 *.jpg
 *.pdf
 *.html
