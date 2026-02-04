@@ -97,6 +97,8 @@ An interactive web dashboard is provided so users can explore how different thre
 ## *Please note*: 
 This dashboard is in it's beta proof of concept version. It will need a lot more work in regards to styling, functionality, bug testing and user experience before it is deloyed publicly
 
+![Dashboard Screenshot](dashboard_screenshot.png)
+
 ### Running the Dashboard
 
 ```bash
