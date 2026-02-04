@@ -1,4 +1,5 @@
 # Creating Housing Market Area
+-----------------------------------------------------------------------------------------------------
 
 This project implements a three-stage algorithm to identify Housing Market Areas (HMAs) in England and Wales based on commuting and migration flow data. The fundations for this project is based on the work of Jones et al, 2010
 
@@ -52,9 +53,10 @@ Based on Coombes-Bond (2008) algorithm
 
 ## Files
 
-- **housing_zones_final.ipynb**: Main implementation
+- **housing_zones_final.ipynb**: Main implementation notebook
 - **housing_zone_model_neatened.ipynb**: Alternative version
 - **Blueprint_for_creating_housing_zones.ipynb**: Original analysis with extra documentation/methodology
+- **housing_zones_dashboard.py**: Interactive Dash web application for exploring different threshold parameters
 
 ## Dependencies
 
@@ -82,11 +84,34 @@ The algorithm produces:
   - Region size (number of LAs)
   - Geographic data for mapping
 
-## Current Algorithm Parameters
+## Current Algorithm Parameters in the notebook
 
 - **COMMUTING_THRESHOLD**: 0.725 (72.5% self-containment)
 - **MIGRATION_THRESHOLD**: 0.55 (55% self-containment)
 - **MAX_ITERATIONS**: 2000 (safety limit)
 
-These can be adjusted in the notebook code to test different definitions of housing market areas.
+# Interactive Dashboard
+
+An interactive web dashboard is provided so users can explore how different threshold parameters affect construction of the resulting Housing Market Areas.
+
+### Running the Dashboard
+
+```bash
+python housing_zones_dashboard.py
+```
+
+The dashboard will start on `http://127.0.0.1:8051`
+  
+- **Data Export**: 
+  - Download results as CSV including LA codes, names, HMA assignments, and self-containment scores, so the exact housing regions can be recreated.
+
+### Dashboard Dependencies
+
+Additional requirements beyond the core analysis:
+```bash
+pip install dash plotly
+```
+
+The dashboard uses the same algorithm created in the notebooks but provides an interactive interface for parameter exploration.
+
 

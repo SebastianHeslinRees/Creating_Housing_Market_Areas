@@ -10,6 +10,11 @@
 *.prj
 *.cpg
 
+# Shapefile directories
+Local_Authority_Districts*/
+*shapefile*/
+*shape*/
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
