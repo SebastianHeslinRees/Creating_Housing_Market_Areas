@@ -47,6 +47,19 @@ Based on Coombes-Bond (2008) algorithm
 ### Key Concepts
 
 - **Self-Containment**: Percentage of flows originating in a region that remain within the region
+
+#### Self-Containment Formula
+
+The self-containment rate for a region $R$ is defined as:
+
+$$SC(R) = \frac{\text{moves within } R}{\text{total moves leaving } R}$$
+
+Where:
+- **Moves within $R$**: Internal flows where both origin and destination are in the region
+- **Total moves leaving $R$**: All outward flows originating from the region
+
+A higher self-containment rate indicates that people moving from the region are more likely to stay within it.
+
 - **Bidirectional Flows**: Sum of flows in both directions between two regions (measures connection strength)
 - **Spatial Contiguity**: Only geographically adjacent regions can merge (prevents disconnected areas)
 - **Greedy Merging**: Always merges the pair of regions with the strongest connection first
@@ -108,7 +121,7 @@ python housing_zones_dashboard.py
 
 The dashboard will start on `http://127.0.0.1:8051`
   
-- **Data Export**: 
+**Data Export**: 
   - Download results as CSV including LA codes, names, HMA assignments, and self-containment scores, so the exact housing regions can be recreated.
 
 ### Dashboard Dependencies
