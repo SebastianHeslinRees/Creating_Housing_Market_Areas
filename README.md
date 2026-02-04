@@ -11,9 +11,10 @@ The algorithm ensures identified regions meet self-containment thresholds for bo
 
 ## Data
 
-- **Commuting flows**: ONS commuting Origin-destination data, England and Wales 2011 at MSOA level
+- **Commuting flows**: ONS commuting Origin-destination data, England and Wales 2011 at MSOA level, aggreagated to Local Auhtority 2023 level
 - **Migration flows**: ONS Annual mid-year data on internal migration moves for England and Wales, 2023 at local authority level.
 We also use 2011 migrations flows at MSOA level to estimate internal migartion for 2023
+- **Geographic boundaries**: ONS Local Authority Districts May 2023 UK BFE V2 shapefile
 
 
 
