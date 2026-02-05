@@ -58,7 +58,7 @@ Where:
 - **Moves within $R$**: Internal flows where both origin and destination are in the region
 - **Total moves leaving $R$**: All outward flows originating from the region
 
-A higher self-containment rate indicates that people moving from the region are more likely to stay within it.
+A higher self-containment rate indicates that migrating people are more likely to stay within the given region.
 
 - **Bidirectional Flows**: Sum of flows in both directions between two regions (measures connection strength)
 - **Spatial Contiguity**: Only geographically adjacent regions can merge (prevents disconnected areas)
@@ -67,8 +67,8 @@ A higher self-containment rate indicates that people moving from the region are 
 
 ## Files
 
-- **housing_zones_final.ipynb**: Main implementation notebook
-- **housing_zone_model_neatened.ipynb**: Alternative version
+- **housing_zones_final.ipynb**: Main implementation notebook, this one is to run the lastest model
+- **housing_zone_model_tester.ipynb**: Alternative version
 - **Blueprint_for_creating_housing_zones.ipynb**: Original analysis with extra documentation/methodology
 - **housing_zones_dashboard.py**: Interactive Dash web application for exploring different threshold parameters
 
