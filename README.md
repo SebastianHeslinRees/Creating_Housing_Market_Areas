@@ -5,7 +5,7 @@ This project implements a three-stage algorithm to identify Housing Market Areas
 
 ## Overview
 
-The aim is to produce plausible possible housing market area geographies that are produced in a transparent way using consistent criteria, Using communication and migration flow data.
+The aim is to produce plausible possible housing market area geographies that are produced in a transparent way using consistent criteria, using commuting and migration flow data.
 
 The algorithm ensures identified regions meet self-containment thresholds for both flows. This is the The ratio of internal flow of a region compared to external flows. Output geography is at 2023 local authority level.
 
@@ -13,7 +13,7 @@ The algorithm ensures identified regions meet self-containment thresholds for bo
 
 - **Commuting flows**: ONS commuting Origin-destination data, England and Wales 2011 at MSOA level, aggreagated to Local Auhtority 2023 level
 - **Migration flows**: ONS Annual mid-year data on internal migration moves for England and Wales, 2023 at local authority level.
-We also use 2011 migrations flows at MSOA level to estimate internal migartion for 2023
+We also use 2011 migrations flows at MSOA level to estimate internal migartion for LA in 2023
 - **Geographic boundaries**: ONS Local Authority Districts May 2023 UK BFE V2 shapefile
 
 
